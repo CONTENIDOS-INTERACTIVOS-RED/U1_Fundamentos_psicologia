@@ -529,7 +529,7 @@
 
 <script>
 export default {
-  name: 'Temas',
+  name: 'Tema1',
   data: () => ({}),
 
   mounted() {

@@ -439,13 +439,13 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/live/S2zxNLmfxbA?si=nO_s4nJA_yXzfrAO" target="_blank" rel="noopener noreferrer") Fernando Pena. (2021). Terapia cognitivo conductual: qué es y para qué problemas es útil .  
+              a(href="https://www.youtube.com/live/S2zxNLmfxbA?si=nO_s4nJA_yXzfrAO" target="_blank" rel="noopener noreferrer") Fernando Pena. (2021). Terapia cognitivo conductual: qué es y para qué problemas es útil.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
 
-  </template>
+</template>
 
 <script>
 import Actividad from '@/components/actividad/Actividad.vue'
