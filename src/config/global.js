@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad:
+      'Teorías y escuelas psicológicas a partir de sus principales exponentes. ',
   },
   menuPrincipal: {
     menu: [
@@ -15,68 +16,51 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Historia de la psicología ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Escuelas y teorías de la psicología',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Psicología estructuralista',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Psicología funcionalista',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Psicoanálisis',
             hash: 't_2_3',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
+            numero: '2.4',
+            titulo: 'Conductismo',
+            hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '2.5',
+            titulo: 'Psicología cognitivo-conductual (PCC)',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Psicología humanista',
+            hash: 't_2_6',
           },
         ],
       },
@@ -118,26 +102,96 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Tortosa, F. (2006). <i>Historia de la psicología</i>. McGraw-Hill España.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50294?page=23',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Sáiz, M. & Anguera, B. (2013). <i>Historia de la psicología</i>. Editorial UOC. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/56425?page=28',
+    },
+    {
+      referencia:
+        'Castro Tejerina, J. (2017). <i>Historia de la psicología</i>. Madrid, UNED - Universidad Nacional de Educación a Distancia. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/103058?page=99',
+    },
+    {
+      referencia:
+        'García, G. & Rivarola, P. (2016). <i>El psicoanálisis</i>. Editorial UOC. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/58477?page=41',
+    },
+    {
+      referencia:
+        'Cerda Beroíza, M. (2012). <i>Cielo azulado: psicología y psicoterapia humanista y transpersonal</i>. RIL editores. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/68232?page=16',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Adaptación',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Proceso mediante el cual los individuos ajustan su comportamiento y procesos mentales para responder a su entorno.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Autorrealización',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Proceso de alcanzar el máximo potencial personal, según la psicología humanista.',
+    },
+    {
+      termino: 'Caja de Skinner',
+      significado:
+        'Dispositivo experimental utilizado por B.F. Skinner, para estudiar el comportamiento de animales, mediante el condicionamiento operante.',
+    },
+    {
+      termino: 'Cognición',
+      significado:
+        'Procesos mentales que incluyen la percepción, memoria, atención y pensamiento.',
+    },
+    {
+      termino: 'Condicionamiento clásico',
+      significado:
+        'Proceso mediante el cual un estímulo neutro se asocia con un estímulo incondicionado para provocar una respuesta condicionada.',
+    },
+    {
+      termino: 'Condicionamiento operante',
+      significado:
+        'Proceso en el cual las consecuencias de una conducta influyen en la probabilidad de que esta se repita en el futuro.',
+    },
+    {
+      termino: 'Conductismo',
+      significado:
+        'Corriente psicológica que se centra en el estudio del comportamiento observable, rechazando la introspección.',
+    },
+    {
+      termino: 'Dualismo',
+      significado:
+        'Teoría que separa la mente del cuerpo, promovida por René Descartes.',
+    },
+    {
+      termino: 'Emociones',
+      significado:
+        'Respuestas psicológicas y fisiológicas a estímulos que influyen en el comportamiento humano.',
+    },
+    {
+      termino: 'Eudaimonía',
+      significado:
+        'Concepto relacionado con una vida plena y realizada, en el contexto de la psicología positiva.',
+    },
+    {
+      termino: 'Introspección',
+      significado:
+        'Método de investigación que implica la auto-observación y reporte de experiencias internas.',
+    },
+    {
+      termino: 'Refuerzo',
+      significado:
+        'Consecuencia que aumenta la probabilidad de que un comportamiento se repita.',
+    },
+    {
+      termino: 'Relación terapéutica',
+      significado:
+        'Interacción entre el terapeuta y el cliente, fundamental para el proceso de cambio en psicología.',
     },
   ],
 }

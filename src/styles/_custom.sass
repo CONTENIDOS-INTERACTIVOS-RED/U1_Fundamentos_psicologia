@@ -15,17 +15,66 @@
 .brounded-sm
   border-radius: 8px !important
 
+.curso-container .btn-iniciar .iniciar-btn-container .iniciar-btn-text
+  color: #0B0A0A !important 
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center 
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem   
+
+.br
+  &-1
+    border-radius: 10px !important      
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #E4F1D4
   &-2
-    background-color: #FFFBE8
+    background-color: #5B5BA1
   &-3
-    background-color: #F0E9F6
+    background-color: #FBF3FB
   &-4
-    background-color: #EAF8FD
-  &-info
+    background-color: #F5DEF4
+  &-5
+    background-color: #5B5BA1
+  &-6
+    background-color: #313158
+  &-7
+    background-color: #795079
+  &-8
+    background-color: #C7F0EF           
+  &-9
     background-color: #E8EEFD
+  &-10
+    background-color: #DDDDEB
+  &-11
+    background-color: #EDEDF5    
+  &-12
+    color: #5B5BA1 !important
+  &-13
+    background-color: #CDCDE2
+  &-14
+    background-color: #F0FBFA       
+  &-info
+    background-image: url("../assets/bg/bg-info.png") !important
+    background-position: bottom    
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -41,24 +90,100 @@
 
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 60%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+  &-2
+    background-size: 100% 60%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem      
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
+    
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
+
+.bg
+  &-h85  
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #5B5BA1
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%
+  &-h86
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #DDDDEB
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%
+
+  &-h87
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 13%
+      left: 0
+      width: 100%
+      height: 75%
+      transform: translateY(-0%)
+      background-color: #F5DEF4
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%        
+
+.tabla-a thead 
+  color: white
+.tabla-a td 
+  border: 1px solid #CACACA !important
+
 
 // Variables
 $custom-card-border-radius: 0px
@@ -210,3 +335,11 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+.slyder-a__tipo-b
+  background-color: #5B5BA1 !important    
+.slyder-a__bullets__item
+  background-color: #CDCDE2 !important
+  border-color: #CDCDE2 !important
+.slyder-a__bullets__item--active
+  background-color: #CDCDE2 !important  
