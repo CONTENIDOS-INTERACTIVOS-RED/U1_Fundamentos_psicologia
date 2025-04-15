@@ -517,7 +517,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/Zth-hnbZ-vI?si=QP_gT1OOtaxNbyU8" target="_blank" rel="noopener noreferrer") Kibbutz .es (2018) Wilhelm Wundt y el proyecto de la psicología moderna .
+              a(href="https://youtu.be/Zth-hnbZ-vI?si=QP_gT1OOtaxNbyU8" target="_blank" rel="noopener noreferrer") Kibbutz .es (2018) Wilhelm Wundt y el proyecto de la psicología moderna.
 
             
 
