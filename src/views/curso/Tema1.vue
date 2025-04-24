@@ -490,7 +490,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Historia de la psicología: evolución de una ciencia para comprender la mente humana
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Historia de la psicología, donde se aborda la evolución histórica de la psicología como disciplina científica, dedicada al estudio del comportamiento y los procesos mentales. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
