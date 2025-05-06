@@ -73,6 +73,8 @@
                 td.text-bold Legado 
                 td Inició el estudio empírico de la mente; no es vigente como terapia.
 
+    p(data-aos="fade-left") A pesar de su declive, el estructuralismo fue clave para establecer la psicología como una disciplina empírica.                
+
     #t_2_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.2] Psicología funcionalista
 
@@ -81,7 +83,7 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/42.png", data-aos="zoom-in")        
       .col-lg-8
-        p(data-aos="fade-left") Utilizaba el método de la #[b introspección], donde los sujetos, previamente entrenados, observaban y describían sus experiencias internas ante ciertos estímulos. Este método fue pionero, aunque posteriormente criticado por su subjetividad y falta de replicabilidad. A continuación, se presentan los aspectos claves de esta perspectiva teórica:         
+        p(data-aos="fade-left") En contraste con el estructuralismo, la psicología funcionalista, liderada por William James, se interesó por la utilidad de los procesos mentales. ¿Para qué sirven la memoria, la percepción o las emociones? Esta corriente, influida por el pensamiento evolutivo de Charles Darwin, buscaba entender cómo la mente ayuda a los individuos a adaptarse a su entorno.        
         .bg-color-4.p-4(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
@@ -133,6 +135,8 @@
               tr
                 td.text-bold Legado
                 td Puente hacia el conductismo y la psicología cognitiva.
+
+    p(data-aos="fade-left") El funcionalismo introdujo la idea de que la mente es un sistema en movimiento constante, orientado a la adaptación, y dejó una profunda huella en la psicología aplicada.                
                 
     #t_2_3.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.3] Psicoanálisis 
@@ -208,6 +212,8 @@
             .col-lg-5.mb-3.mb-lg-0
               figure
                 img.img-a.img-t(src="@/assets/curso/temas/51.png")                                         
+
+    p.mb-5(data-aos="fade-down") La interacción constante entre estas tres partes, genera #[b conflictos internos], que pueden manifestarse en síntomas, emociones o conductas problemáticas.
 
     .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0

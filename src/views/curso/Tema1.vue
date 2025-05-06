@@ -70,7 +70,7 @@
             .bg-color-6.h-100.p-3.j1                  
               p.mb-0.text-center(data-aos="fade-up") Identificar los momentos claves de cambio y avance.         
           
-        h3(data-aos="fade-down") La evolución histórica de la psicología
+        h3(data-aos="fade-down") Métodos y enfoques a través del tiempo
         p(data-aos="fade-down") A lo largo de su desarrollo, la psicología ha adoptado distintos métodos de investigación y enfoques terapéuticos, respondiendo a las necesidades de cada época.
 
         .row.mb-5
@@ -211,39 +211,7 @@
                 .bg-color-white.box-shadow.p-3(x="88.45%" y="23%" numero="+")
                   h5 China
                   p Confucio.
-                  p.mb-0 Relación entre individuo y comunidad, moral y armonía social.
-
-    h3(data-aos="fade-down") La evolución histórica de la psicología
-    p(data-aos="fade-down") A lo largo de su desarrollo, la psicología ha adoptado distintos métodos de investigación y enfoques terapéuticos, respondiendo a las necesidades de cada época.
-
-    .row.mb-5
-      .col-lg-4
-        figure
-          img.img-a.img-t(src="@/assets/curso/temas/7.png", data-aos="zoom-in")  
-      .col-lg-8
-        .bg-color-7.p-3.text-white.mb-3(data-aos="fade-left")
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/temas/8.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5 Necesidad de comprensión profunda del comportamiento
-              p.mb-0 Se buscan explicaciones más sistemáticas y verificables.   
-
-        .bg-color-7.p-3.text-white.mb-3(data-aos="fade-left")
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/temas/9.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5 Búsqueda de rigor científico
-              p.mb-0 Se adoptan metodologías experimentales y cuantificables. 
-
-        .bg-color-7.p-3.text-white(data-aos="fade-left")
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/temas/10.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5 Cambios sociales y culturales
-              p.mb-0 Las problemáticas emergentes exigen nuevos enfoques.  
+                  p.mb-0 Relación entre individuo y comunidad, moral y armonía social.    
 
     h3(data-aos="fade-down") Aristóteles: fundamentos de la psicología antigua
     p(data-aos="fade-down") Aristóteles fue un pionero en el estudio de la mente, desde una perspectiva naturalista. En su obra “De Anima”, propuso que el alma es el principio vital de todos los seres vivos, y está estrechamente vinculada al cuerpo.
